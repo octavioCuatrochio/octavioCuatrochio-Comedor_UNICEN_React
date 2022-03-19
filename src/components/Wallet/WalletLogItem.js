@@ -17,8 +17,8 @@ function WalletLogItem(props) {
     return (
         <li className="item-card wallet-log-item">
             <div className="wallet-log-item__info">
-                {transactionValue && <img src={arrow} />}
-                {!transactionValue && <img src={arrow} className="wallet-log-item__arrow-rotated" />}
+                {transactionValue && <img src={arrow} alt="" />}
+                {!transactionValue && <img src={arrow} className="wallet-log-item__arrow-rotated" alt="" />}
                 <h2>{props.date}</h2>
             </div>
             {transactionValue && <h2 className="wallet-log-transaction__positive">{"$" + amount}</h2>}

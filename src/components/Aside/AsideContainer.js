@@ -6,7 +6,7 @@ import LogOutIcon from "../Icons/LogOutIcon";
 function AsideContainer(params) {
     return (
         <div className="aside__container">
-            <img src={logo} />
+            <img src={logo} alt="logo" />
 
             <div className="aside__info">
                 <h1>Cuatrochio Octavio</h1>

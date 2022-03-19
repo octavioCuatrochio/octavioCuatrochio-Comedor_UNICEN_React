@@ -15,10 +15,10 @@ function Header(props) {
     return (
         <header className="header-container">
             <button onClick={openAsideHandler} className="header-icon__container">
-                <img src={icon} className="icon-options" />
+                <img src={icon} className="icon-options"  alt="options" />
             </button>
-            {path.pathname == "/wallet" && <div />}
-            {path.pathname != "/wallet" && <MoneyItem current_funds={props.funds} />}
+            {path.pathname === "/wallet" && <div />}
+            {path.pathname !== "/wallet" && <MoneyItem current_funds={props.funds} />}
         </header>
     );
 };

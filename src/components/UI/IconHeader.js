@@ -5,7 +5,7 @@ function ItemCard(props) {
 
     return (
         <div className={classes}>
-            <img src={props.icon} />
+            <img src={props.icon} alt="" />
             <h1>{props.children}</h1>
         </div>
     );
