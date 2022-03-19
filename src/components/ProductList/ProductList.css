@@ -1,0 +1,12 @@
+.product-item {
+    width: 90%;
+    margin-bottom: 5% !important;
+    text-transform: lowercase;
+}
+
+.product-list__list {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

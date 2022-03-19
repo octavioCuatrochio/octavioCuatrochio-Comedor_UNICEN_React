@@ -1,0 +1,30 @@
+.product-search__container {
+  background-color: #00d4ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2.5% 5%;
+  border-radius: 500px;
+}
+
+.product-search__container svg {
+  height: 7vw;
+}
+
+.product-search__input {
+  margin-left: 5%;
+  border: none;
+  background-color: transparent;
+  color: white;
+  font-size: 1.25rem;
+  font-weight: lighter;
+  width: 70%;
+}
+
+.product-search__input::placeholder {
+  color: white;
+}
+
+.product-search__input:focus {
+  outline: none;
+}

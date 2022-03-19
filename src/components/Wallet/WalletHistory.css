@@ -1,0 +1,34 @@
+.wallet-history__header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wallet-history__container {
+   padding: 6% 5%;
+}
+
+.wallet-history__header > h2, 
+h3 {
+    padding: 0;
+    margin: 0;
+}
+
+.wallet-history__header h3{
+    color: #c4c4c4;
+    font-weight: lighter;
+    font-size: 1rem;
+}
+
+.wallet-history__list {
+    margin-top: 5%;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.wallet-history__list li {
+    width: 100%;
+}

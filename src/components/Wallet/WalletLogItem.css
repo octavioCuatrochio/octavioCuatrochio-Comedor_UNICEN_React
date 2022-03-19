@@ -1,0 +1,30 @@
+.wallet-log-item__info {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wallet-log-item__info img {
+    height: 7vw;
+}
+
+.wallet-log-item__info h2 {
+    padding-left: 15%;
+}
+
+.wallet-log-item {
+    margin-bottom: 5% !important;
+}
+
+.wallet-log-transaction__negative {
+    color: #D0342C;
+}
+
+.wallet-log-transaction__positive {
+    color: #4BB543;
+}
+
+.wallet-log-item__arrow-rotated {
+    transform: rotate(180deg);
+}

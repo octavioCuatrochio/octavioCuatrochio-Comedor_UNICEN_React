@@ -1,0 +1,36 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+.item-card {
+  background: #ffffff;
+  border: 1px solid #c4c4c4;
+  box-sizing: border-box;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3%;
+}
+
+.info-container__title {
+  font-size: 1.5rem;
+}
+
+.info-container__description {
+  padding-top: 2.5%;
+  font-size: 1.1rem;
+  color: #c4c4c4;
+  font-weight: lighter;
+}
+
+.card-price {
+  font-size: 1.25rem;
+  font-weight: bolder;
+}
+
+.info-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}

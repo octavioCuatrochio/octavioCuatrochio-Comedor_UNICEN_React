@@ -1,0 +1,32 @@
+.button-icon__container {
+  background-color: transparent;
+  border: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: inherit;
+}
+
+.button-icon__name {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  text-align: center;
+  font-size: 0.75rem;
+}
+
+.button-icon__img {
+  height: 7vw;
+}
+
+.button-icon__container_active {
+  color: #00d4ff;
+  fill: #00d4ff;
+}
+
+.button-icon__container:focus {
+  outline:none;
+}

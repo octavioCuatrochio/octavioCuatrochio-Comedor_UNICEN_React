@@ -1,0 +1,25 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+.icon-header {
+  background: #00d4ff;
+  border-radius: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2.5% 0;
+  width: 40%;
+}
+
+.icon-header img {
+  width: 7vw;
+}
+
+.icon-header h1 {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: lighter;
+  color: #fff;
+  margin-left: 7.5%;
+}

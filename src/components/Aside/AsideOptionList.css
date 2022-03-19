@@ -1,0 +1,12 @@
+.aside-option__list {
+    padding: 0;
+    list-style: none;
+}
+
+.aside-option__item h1{
+    font-size: 1.5rem;
+}
+
+.aside-option__item svg {
+    height: 6vw;
+}

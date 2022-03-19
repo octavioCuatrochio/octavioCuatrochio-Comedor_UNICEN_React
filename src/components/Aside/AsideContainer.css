@@ -1,0 +1,22 @@
+.aside__container {
+  background-color: white;
+  width: 66%;
+  height: 100vh;
+  padding: 2.5% 5%;
+  padding-bottom: 5vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.aside__info {
+  margin-bottom: 25vh;
+}
+
+.aside__info > h1 {
+  margin-bottom: 15%;
+}
+
+.aside__log-out {
+  border-color: #D0342C;
+}

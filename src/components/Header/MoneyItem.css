@@ -1,0 +1,18 @@
+.funds-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border:  3px solid #00D4FF;
+  box-sizing: border-box;
+  border-radius: 500px;
+  padding: .5% 5%;
+}
+
+.funds-balance {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  margin: 0;
+  font-style: bold;
+  font-weight: 500;
+  font-size: 1.25rem;
+}

@@ -1,0 +1,14 @@
+.aside {
+  position: fixed;
+  z-index: 2000;
+  top: 0;
+  width: 100%;
+  display: flex;
+}
+
+.aside__overlay {
+  background-color: black;
+  width: 33%;
+  height: 100vh;
+  opacity: 50%;
+}
